@@ -7,6 +7,7 @@
  */
 
 
+
 var lastName = prompt("What's your surname?").toLowerCase();
 
 var lastNamesList = ["bianchi", "neri","verdi", "rossi", "gialli"];
@@ -18,11 +19,22 @@ lastNamesList.sort();
 //console.log(lastNamesList);
 
 
-// 2nd part Write down the correct index position
+// 2nd part - Write down the correct index position
 
 var indexPosition = lastNamesList.indexOf(lastName);
-// console.log(indexPosition + 1);
+// console.log(indexPosition + 1);  -----> got the user's last name index
 
-for(var i=0; i < lastNamesList.length; i++) {
+
+// -----
+
+for(var i = 0; i < lastNamesList.length; i++) {
     console.log(i + 1 + " " +  lastNamesList[i]);
-}
+}  // ---> got all the items'position
+
+// ----
+
+
+
+// Print data into HTML
+
+document.getElementById("surnames-list").innerHTML += "<li>" + lastNamesList + "</li>";
