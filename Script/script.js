@@ -25,16 +25,16 @@ var indexPosition = lastNamesList.indexOf(lastName);
 // console.log(indexPosition + 1);  -----> got the user's last name index
 
 
-// -----
+// ----- /
 
 for(var i = 0; i < lastNamesList.length; i++) {
     console.log(i + 1 + " " +  lastNamesList[i]);
 }  // ---> got all the items'position
 
-// ----
+// ---- /
 
 
 
 // Print data into HTML
 
-document.getElementById("surnames-list").innerHTML += "<li>" + lastNamesList[i] + "</li>";
+document.getElementById("surnames-list").innerHTML += "<li>" + (i + 1 + " " +  lastNamesList[i]) + "</li>";
