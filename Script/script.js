@@ -3,7 +3,7 @@
 /**  Ask the user what's their surname.
  *   Insert it into an array together with other surnames.
  *   Once you've arranged the list in alphabetical order, print it.
- *   Write down the correct position (1, 2, 3, etc.)
+ *   Write down their correct element index position ( >>>> index starting from 1 )
  */
 
 
