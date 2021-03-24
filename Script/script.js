@@ -23,7 +23,7 @@ console.log(lastNamesList);
 
 function array_move(lastNamesList, [0], [1]) {
     if(1 >= lastNamesList.length) {
-        var k = [1] - [0] + 1;
+        var k = [1] - lastNamesList.length + 1;
 
         while (k--) {
             lastNamesList.push(undefined);
