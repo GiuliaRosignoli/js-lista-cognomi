@@ -37,4 +37,4 @@ for(var i = 0; i < lastNamesList.length; i++) {
 
 // Print data into HTML
 
-document.getElementById("surnames-list").innerHTML += "<li>" + lastNamesList + "</li>";
+document.getElementById("surnames-list").innerHTML += "<li>" + lastNamesList[i] + "</li>";
