@@ -22,7 +22,7 @@ console.log(lastNamesList);
 
 
 function array_move(lastNamesList, [0], [1]) {
-    if(1 >= lastNamesList.length) {
+    if([1] >= lastNamesList.length) {
         var k = [1] - lastNamesList.length + 1;
 
         while (k--) {
@@ -47,4 +47,4 @@ function array_move(lastNamesList, [0], [1]) {
 };
 
 // returns [2, 1, 3]
-console.log(array_move([1, 2, 3], 0, 1));  /*
+console.log(array_move([1, 2, 3], 0, 1));  */
